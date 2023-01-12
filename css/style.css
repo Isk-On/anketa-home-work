@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+}
+
+.stickers-block{
+    display: flex;
+    gap: 50px;
+}
+
+.first-sticker-first-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 400px;
+
+    background-color: pink;
+
+    border-radius: 30px;
+}
+
+.first-serdce{
+    width: 300px;
+}
+
+.second-sticker-block{
+    width: 400px;
+    height: 400px;
+
+    background-color: #fff;
+
+    border-radius: 30px;
+}

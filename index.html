@@ -4,16 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <form id="messageForm">
+    <div class="stickers-block">
+      <div class="first-sticker-first-block">
+        <img src="img/loves/serdce.png" alt="" class="first-serdce" />
+      </div>
+      <div class="second-sticker-block">
+        <form id="messageForm">
+          <h1>Босит гей?</h1>
+          <label>
+            <p>Да</p>
+            <input name="gender" value="Да" type="radio" />
+          </label>
+          <label>
+            <p>Естественно</p>
+            <input name="gender" value="Естественно" type="radio" />
+          </label>
+          <label>
+            <p>是的</p>
+            <input name="gender" value="是的" type="radio" />
+          </label>
+        </form>
+      </div>
+    </div>
+
+     <form id="messageForm">
       <input type="text" name="боб" required />
       <input type="text" name="имя" placeholder="Введите свое имя" required />
       <input type="submit" />
       <p id="status"></p>
-      <!-- This is for displaying if the message sent correctly -->
-    </form>
+    <!-- This is for displaying if the message sent correctly -->
+     </form>  
 
     <script>
       const chat_id = "-879264514",
