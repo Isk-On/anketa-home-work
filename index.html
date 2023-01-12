@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
@@ -13,7 +25,119 @@
         <img src="img/loves/serdce.png" alt="" class="first-serdce" />
       </div>
       <div class="second-sticker-block">
-        <form id="messageForm">
+        Повседневная практика показывает, что начало повседневной работы по
+        формированию позиции влечет за собой процесс внедрения и модернизации
+        экспериментов, поражающих по своей масштабности и грандиозности.
+      </div>
+    </div>
+    <div class="stickers-block">
+      <div class="second-sticker-block second-rotate">
+        В своём стремлении улучшить пользовательский опыт мы упускаем, что
+        многие известные личности, инициированные исключительно синтетически,
+        превращены в посмешище, хотя само их существование приносит несомненную
+        пользу обществу.
+      </div>
+      <div class="first-sticker-first-block second-block">
+        <img src="img/loves/2.png" alt="" class="first-serdce" />
+      </div>
+    </div>
+
+    <!-- anketa-block -->
+    <form id="messageForm">
+      <div class="anketa-pos">
+        <div class="anketa">
+          <p>
+            <input
+              type="text"
+              name="Имя"
+              placeholder="Как вас зовут?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Знак Задиака"
+              placeholder="Ваш знак зодиака и в год кого вы родились?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="достоинства"
+              placeholder="Ваши главные достоинства?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="недостатки"
+              placeholder="Ваши главные недостатки?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Актер"
+              placeholder="Ваши любимые актеры/актрисы?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Люди"
+              placeholder="Что вы цените в людях?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Домашнее животное"
+              placeholder="Есть ли у вас домашние животные и какие?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Девиз"
+              placeholder="Есть ли у вас жизненный девиз и какой?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Лям баксов"
+              placeholder="Что сразу сделали бы, если выиграли миллион долларов?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Любимое место в городе"
+              placeholder="Ваше любимое место в любимом городе?"
+              required
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              name="Счастье"
+              placeholder="Вы счастливы?"
+              required
+            />
+          </p>
+        </div>
+      </div>
+      <div class="questions">
+        <div class="question first-question">
           <h1>Босит гей?</h1>
           <label>
             <p>Да</p>
@@ -27,17 +151,43 @@
             <p>是的</p>
             <input name="gender" value="是的" type="radio" />
           </label>
-        </form>
-      </div>
-    </div>
+        </div>
 
-     <form id="messageForm">
-      <input type="text" name="боб" required />
-      <input type="text" name="имя" placeholder="Введите свое имя" required />
+        <div class="question second-question">
+          <h1>Смотришь дисней</h1>
+          <label>
+            <p>Да</p>
+            <input name="disnay" value="Да" type="radio" />
+          </label>
+          <label>
+            <p>Да</p>
+            <input name="disnay" value="Да" type="radio" />
+          </label>
+          <label>
+            <p>はい</p>
+            <input name="disnay" value="是的" type="radio" />
+          </label>
+        </div>
+        <div class="question third-question">
+          <h1>Смотришь карусель</h1>
+          <label>
+            <p>Да</p>
+            <input name="karusel" value="Да" type="radio" />
+          </label>
+          <label>
+            <p>Дааааааааа</p>
+            <input name="karusel" value="Естественно" type="radio" />
+          </label>
+          <label>
+            <p>نعم</p>
+            <input name="karusel" value="نعم" type="radio" />
+          </label>
+        </div>
+      </div>
       <input type="submit" />
       <p id="status"></p>
-    <!-- This is for displaying if the message sent correctly -->
-     </form>  
+      <!-- This is for displaying if the message sent correctly -->
+    </form>
 
     <script>
       const chat_id = "-879264514",
